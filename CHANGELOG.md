@@ -1,3 +1,2 @@
 ## 0.0.1
-
-* TODO: Describe initial release.
+* Flutter  countries_pick_local pre release

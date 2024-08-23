@@ -1,8 +1,8 @@
 name: countries_pick_locale
 description: "Available Locale Country Pick"
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/ironfactory8684
+repository: https://github.com/ironfactory8684/countries_pick_locale
 environment:
   sdk: '>=3.4.4 <4.0.0'
   flutter: ">=1.17.0"
