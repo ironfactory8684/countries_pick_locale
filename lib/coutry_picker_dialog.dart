@@ -105,7 +105,7 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
                   enabledBorder: InputBorder.none,
                   focusedBorder: InputBorder.none,
                   contentPadding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 14.0),
-                  prefixIcon: Icon(
+                  prefixIcon: const Icon(
                     Icons.search,
                     size: 18.0,
                     color: Colors.black38,
@@ -167,11 +167,11 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
     if (text == '') {
       tmpList.addAll(widget.searchList);
     } else {
-      widget.searchList.forEach((userDetail) {
+      for (var userDetail in widget.searchList) {
         if (userDetail.name.toLowerCase().contains(text.toLowerCase())) {
           tmpList.add(userDetail);
         }
-      });
+      }
     }
     setState(() {});
   }

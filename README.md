@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgement
 
-This package was inspired by and built upon the concepts from the [country_list_pick](https://pub.dev/packages/country_list_pick) package.
+This package was inspired by and built upon the concepts from the [country_list_pick](https://pub.dev/packages/country_calling_code_picker) package.
 
 ## Additional Notes:
 Contributing: If you would like to contribute to the project, feel free to fork the repository and submit a pull request.

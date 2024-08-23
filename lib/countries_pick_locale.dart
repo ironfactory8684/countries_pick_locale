@@ -7,8 +7,6 @@ import 'support/country_codes.dart';
 import 'support/country_model.dart';
 import 'support/country_translate_code.dart';
 
-
-
 class CountriesPickLocale extends StatefulWidget {
   CountriesPickLocale({
     required this.callBackFunction,
@@ -25,7 +23,7 @@ class CountriesPickLocale extends StatefulWidget {
   final Color? headerTextColor;
   final bool isFlag;
   final String locale; // Add locale as a parameter
-  bool isInit = true;
+
 
   @override
   _CountriesPickLocaleState createState() => _CountriesPickLocaleState();
@@ -35,11 +33,11 @@ class _CountriesPickLocaleState extends State<CountriesPickLocale> {
   List<CountryModel> countryList = [];
   CountryModel? selectedCountryData;
   Map translateCode = {};
-
+  bool isInit = true;
   @override
   void didChangeDependencies() async {
-    if (widget.isInit) {
-      widget.isInit = false;
+    if (isInit) {
+      isInit = false;
       List decodeCountryCode = countryCodesList;
       translateCode = countryTranslateCode;
       setState(() {
