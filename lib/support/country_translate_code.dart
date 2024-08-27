@@ -1,4 +1,4 @@
-Map countryTranslateCode = {
+const Map countryTranslateCode = {
   "Afghanistan": {
     "kr": "아프가니스탄",
     "zh": "阿富汗",

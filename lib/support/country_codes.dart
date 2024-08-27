@@ -1,4 +1,4 @@
-List<Map> countryCodesList =[
+const List<Map<String,dynamic>> countryCodesList =[
   {
     "name": "Afghanistan",
     "dial_code": "+93",
